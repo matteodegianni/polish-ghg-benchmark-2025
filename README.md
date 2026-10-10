@@ -4,7 +4,7 @@ Benchmark of greenhouse gas emissions, energy use and EU Taxonomy alignment for 
 
 **Interactive dashboard:** [Tableau Public](https://public.tableau.com/app/profile/matteo.de.gianni/viz/PolishCorporateGHGBenchmark2025/Dashboard)
 
-![Dashboard](images/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Scope
 
@@ -56,7 +56,7 @@ Banks and insurers were excluded because financed emissions (Scope 3, category 1
 
 ## Data quality log
 
-40 issues are documented in `data/issue_log.csv`, grouped by type: boundary or scope differences, restatements, unit inconsistencies, missing disclosures and unclear methodology. Examples:
+40 issues are documented in `issue_log.csv`, grouped by type: boundary or scope differences, restatements, unit inconsistencies, missing disclosures and unclear methodology. Examples:
 
 - Allegro: emissions include Mall South while income statement revenue excludes it (5.8% intensity distortion if not corrected).
 - PGE: the breakdown table labels the Group total as the parent company figure, and parent plus subsidiaries does not add up to the consolidated row.
@@ -66,15 +66,12 @@ Banks and insurers were excluded because financed emissions (Scope 3, category 1
 ## Repository structure
 
 ```
-data/
-  ESG_GHG_Benchmark_Poland_2025.xlsx   Full model: inputs, unit table, calculations, quality checks, Power Query output
-  Tableau_Data_ESG_Poland.xlsx         Clean data source for the Tableau dashboard
-  companies_summary.csv                One row per company with all KPIs
-  issue_log.csv                        Data quality issue log
-images/
-  dashboard.png                        Dashboard screenshot
+ESG_GHG_Benchmark_Poland_2025.xlsx   Full model: inputs, unit table, calculations, quality checks, Power Query output
+Tableau_Data_ESG_Poland.xlsx         Clean data source for the Tableau dashboard
+companies_summary.csv                One row per company with all KPIs
+issue_log.csv                        Data quality issue log
+dashboard.png                        Dashboard screenshot
 ```
-
 ## Limitations
 
 - One reporting year only (FY2025, the first year for several companies), so no trends.
