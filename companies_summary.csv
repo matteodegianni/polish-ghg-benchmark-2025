@@ -1,0 +1,9 @@
+Company,Sector,Sector_Group,Scope1_t,Scope2_LB_t,Scope2_MB_t,Scope3_t,Total_MB_t,Revenue_PLNm,Employees,Intensity_tCO2e_per_PLNm,Reported_Intensity,Intensity_Deviation_pct,Scope3_Share_pct,S12_MB_per_Employee_t,Energy_MWh,Energy_Intensity_MWh_per_PLNm,S2_MB_vs_LB_pct,Taxonomy_Turnover_pct,Taxonomy_CapEx_pct,Taxonomy_OpEx_pct,EU_ETS_share_of_Scope1_pct,Validation_Status
+PGE,Energy utilities,Energy,52200270,1297281,1297281,23907689,77405240,61434,41690,1260,1300,-3.08,30.89,1283.22,149493791,2433.4,0,24.6,42.9,41.2,98.98,Validated
+Tauron,Energy utilities,Energy,9825368,1118942,962262,16060983,26848613,33277,19267,806.8,807,-0.02,59.82,559.9,31254105,939.2,-14,38.8,84.5,74.2,98,Validated
+KGHM,Metals and mining,Heavy industry,2068510,1554657,2105896,2527068,6701474,36342.3,34477,184.4,184.4,0,37.71,121.08,8002333,220.2,35.5,0,0,0,77.9,Validated
+Grupa Kety,Industrial manufacturing,Heavy industry,41938,112196,118957,1179718,1340613,5494.6,6240,244,,,88,25.78,417391.24,76,6,25.5,8.6,38,0,Review
+Zabka,Food retail,Retail and services,25082,24890,7478,3387108,3419668,27153,4257,125.9,125.9,0.03,99.05,7.65,137548,5.1,-70,0,8.2,0,0,Validated
+Dino,Food retail,Retail and services,41804,135019,207858,7073574,7323236,33634.2,55856,217.7,217.7,0.01,96.59,4.47,408775,12.2,53.9,0,0,0,0,Validated
+Orange Polska,Telecommunications,Retail and services,21538,272838,7354,493158,522050,13133,8172,39.8,40,-0.62,94.47,3.54,547748,41.7,-97.3,0,0,0,,Validated
+Allegro,E-commerce,Retail and services,1803,17739,4017,419552,425372,11885.8,6090,35.8,35.1,1.96,98.63,0.96,43603,3.7,-77.4,0,33.9,40.4,0,Validated
