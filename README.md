@@ -56,10 +56,11 @@ Banks and insurers were excluded because financed emissions (Scope 3, category 1
 
 ## Data quality log
 
-40 issues are documented in `issue_log.csv`, grouped by type: boundary or scope differences, restatements, unit inconsistencies, missing disclosures and unclear methodology. Examples:
+29 data issues are documented in `issue_log.csv`, from 3 to 5 per company, grouped by type: boundary or scope differences, restatements, unit inconsistencies, missing disclosures and unclear methodology. Examples:
 
 - Allegro: emissions include Mall South while income statement revenue excludes it (5.8% intensity distortion if not corrected).
 - PGE: the breakdown table labels the Group total as the parent company figure, and parent plus subsidiaries does not add up to the consolidated row.
+- Żabka: the location-based total exceeds the sum of its disclosed components by 155,536 t, with no explanation in the report.
 - Orange Polska and Dino: Taxonomy turnover reported as 0% because alignment was not assessed under the materiality exemption (Delegated Regulation 2026/73), not because activities are non-aligned.
 - Grupa Kęty: Scope 3 category 1 partly estimated with US EPA spend-based factors for a European supply chain.
 
@@ -69,7 +70,7 @@ Banks and insurers were excluded because financed emissions (Scope 3, category 1
 ESG_GHG_Benchmark_Poland_2025.xlsx   Full model: inputs, unit table, calculations, quality checks, Power Query output
 Tableau_Data_ESG_Poland.xlsx         Clean data source for the Tableau dashboard
 companies_summary.csv                One row per company with all KPIs
-issue_log.csv                        Data quality issue log
+issue_log.csv                        Data quality issue log (29 issues)
 dashboard.png                        Dashboard screenshot
 ```
 ## Limitations
